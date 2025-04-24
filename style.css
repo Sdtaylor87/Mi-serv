@@ -1,0 +1,10 @@
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #fff; color: #1D1D1B; }
+.header { background: white; color: #1D1D1B; padding: 1rem 0; }
+.container { max-width: 1200px; margin: auto; padding: 0 1rem; display: flex; justify-content: space-between; align-items: center; }
+.logo { max-width: 240px; margin-right: 1rem; }
+.brand { font-size: 2rem; font-weight: 800; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; letter-spacing: 1px; display: flex; align-items: center; }
+.nav a { margin-left: 1.5rem; text-decoration: none; font-weight: bold; color: #1D1D1B; }
+.nav a.active { text-decoration: underline; }
+.about-hero { background: #f4f4f4; padding: 4rem 1rem; text-align: center; }
+.about-content { padding: 3rem 1rem; }
+.footer { background: #1D1D1B; color: white; text-align: center; padding: 2rem; }
