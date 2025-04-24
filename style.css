@@ -52,3 +52,33 @@ body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #fff; 
   font-size: 1.2rem;
   color: #555;
 }
+
+.about-structured {
+  background-color: #fefefe;
+  padding: 4rem 1rem;
+}
+
+.about-container {
+  max-width: 960px;
+  margin: auto;
+  padding: 0 1rem;
+}
+
+.about-text {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #333;
+}
+
+.about-text h2 {
+  font-size: 1.6rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #E30613;
+  border-left: 4px solid #E30613;
+  padding-left: 1rem;
+}
+
+.about-text p {
+  margin-bottom: 1.5rem;
+}
