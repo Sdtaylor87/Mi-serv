@@ -1,0 +1,54 @@
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #fff; color: #1D1D1B; }
+.header { background: white; color: #1D1D1B; padding: 1rem 0; }
+.container { max-width: 1200px; margin: auto; padding: 0 1rem; display: flex; justify-content: space-between; align-items: center; }
+.logo { max-width: 240px; margin-right: 1rem; }
+.brand { font-size: 2rem; font-weight: 800; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; letter-spacing: 1px; display: flex; align-items: center; }
+.nav a { margin-left: 1.5rem; text-decoration: none; font-weight: bold; color: #1D1D1B; }
+.nav a.active { text-decoration: underline; }
+.hero { background: #ccc url('https://images.unsplash.com/photo-1612969300401-04ef0b29a8ed?fit=crop&w=1920&q=80') no-repeat center center / cover; text-align: center; padding: 6rem 2rem; color: white; }
+.hero-content { background: rgba(0, 0, 0, 0.6); display: inline-block; padding: 2rem 3rem; border-radius: 8px; }
+.cta { background: #E30613; color: white; padding: 0.8rem 1.5rem; text-decoration: none; font-weight: bold; border-radius: 4px; }
+.services { padding: 4rem 2rem; background-color: #f9f9f9; text-align: center; }
+.service-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 2rem; max-width: 1000px; margin: auto; }
+.service-card { background: white; padding: 2rem; border: 1px solid #ddd; border-radius: 6px; }
+.about-hero { background: #f4f4f4; padding: 4rem 1rem; text-align: center; }
+.about-content { padding: 3rem 1rem; }
+.footer { background: #1D1D1B; color: white; text-align: center; padding: 2rem; }
+.about-content {
+  padding: 4rem 2rem;
+  max-width: 900px;
+  margin: auto;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.about-content h2 {
+  font-size: 1.8rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #E30613;
+  border-bottom: 2px solid #E30613;
+  padding-bottom: 0.3rem;
+}
+
+.about-content p {
+  margin-bottom: 1.5rem;
+}
+
+.about-hero {
+  background-color: #f3f3f3;
+  padding: 4rem 1rem;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.about-hero .hero-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: #1D1D1B;
+}
+
+.about-hero .hero-text p {
+  font-size: 1.2rem;
+  color: #555;
+}
