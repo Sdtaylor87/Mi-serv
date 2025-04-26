@@ -10,22 +10,44 @@ body {
   justify-content: space-between;
   font-size: 14px;
 }
-header {
+header.container {
   background: white;
   padding: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+.header-left {
+  flex: 1;
+}
+.header-right {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .logo {
   height: 250px;
+}
+.slogan h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #0d2c54;
+}
+.slogan p {
+  margin: 5px 0 15px 0;
+  font-size: 18px;
+  color: #333;
+}
+.button-group {
+  margin-top: 20px;
 }
 .button-group a {
   background: #1e90ff;
   color: white;
   padding: 10px 20px;
   text-decoration: none;
-  margin: 5px;
+  margin: 5px 5px 5px 0;
   border-radius: 5px;
   font-weight: bold;
 }
