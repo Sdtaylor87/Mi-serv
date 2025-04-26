@@ -49,11 +49,14 @@ header.container {
   margin: 0;
   font-size: 28px;
   color: #0d2c54;
+  font-weight: 900; /* EXTRA BOLD */
+  
 }
 .header-center .slogan p {
   margin: 5px 0 0 0;
   font-size: 18px;
   color: #333;
+  font-style: italic; /* MAKE IT ITALIC */
 }
 .logo {
   height: 120px;
