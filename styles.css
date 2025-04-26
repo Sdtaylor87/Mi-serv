@@ -18,7 +18,7 @@ header.container {
   justify-content: space-between;
 }
 .header-left {
-  flex: 0 0 250px;
+  flex: 0 0 150px;
 }
 .header-center {
   flex: 1;
@@ -33,6 +33,9 @@ header.container {
   margin: 5px 0 0 0;
   font-size: 18px;
   color: #333;
+}
+.logo {
+  height: 100px;
 }
 .button-group {
   flex: 0 0 300px;
