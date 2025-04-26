@@ -12,42 +12,39 @@ body {
 }
 header.container {
   background: white;
-  padding: 15px;
+  padding: 10px 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 .header-left {
+  flex: 0 0 250px;
+}
+.header-center {
   flex: 1;
+  text-align: center;
 }
-.header-right {
-  flex: 2;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.logo {
-  height: 250px;
-}
-.slogan h1 {
+.header-center .slogan h1 {
   margin: 0;
   font-size: 24px;
   color: #0d2c54;
 }
-.slogan p {
-  margin: 5px 0 15px 0;
+.header-center .slogan p {
+  margin: 5px 0 0 0;
   font-size: 18px;
   color: #333;
 }
 .button-group {
-  margin-top: 20px;
+  flex: 0 0 300px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
 }
 .button-group a {
   background: #1e90ff;
   color: white;
   padding: 10px 20px;
   text-decoration: none;
-  margin: 5px 5px 5px 0;
   border-radius: 5px;
   font-weight: bold;
 }
