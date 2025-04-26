@@ -15,22 +15,41 @@
 </div>
 
 <!-- Header Section -->
-<header class="container">
-  <div class="header-left">
-    <img src="logo.png" alt="MIS Logo" class="logo">
-  </div>
-  <div class="header-center">
-    <div class="slogan">
-      <h1>Protecting What Matters Most</h1>
-      <p>Specialists in Fire, Security and Electrical Services across the UK</p>
-    </div>
-  </div>
-  <div class="button-group">
-    <a href="tel:01513742912">Call Us</a>
-    <a href="mailto:info@yourcompany.com">Email Us</a>
-    <a href="#">Get a Quote</a>
-  </div>
-</header>
+header.container {
+  background: white;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-left {
+  flex: 0 0 250px; /* Fix logo width */
+}
+
+.header-center {
+  flex: 1;
+  text-align: center;
+}
+
+.header-center .slogan h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #0d2c54;
+}
+
+.header-center .slogan p {
+  margin: 5px 0 0 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.button-group {
+  flex: 0 0 300px; /* Fix buttons width */
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
 
 <!-- Navigation Menu -->
 <nav>
