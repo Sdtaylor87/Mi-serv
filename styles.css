@@ -5,10 +5,31 @@ body {
 .top-bar {
   background: #0d2c54;
   color: white;
-  padding: 5px 20px;
+  padding: 8px 20px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   font-size: 14px;
+}
+.social-icons a {
+  margin-right: 10px;
+}
+.icon {
+  width: 20px;
+  height: 20px;
+}
+.sales-contact {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.sales-text {
+  font-weight: bold;
+}
+.phone-number {
+  font-weight: bold;
+  color: #f2b100;
+  font-size: 16px;
 }
 header.container {
   background: white;
