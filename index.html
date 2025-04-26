@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maintenance & Installation Services Ltd</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .header {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: rgba(29,29,29,0.85);
+      padding: 0.5rem 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 1rem;
+      transition: background-color 0.3s, box-shadow 0.3s;
+    }
+    .header.scrolled {
+      background: rgba(17,17,17,0.85);
+      box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    }
+    .nav a {
+      color: white;
+      margin-right: 1rem;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+    .nav a:hover, .nav a.active {
+      color: #E30613;
+    }
+    .hero-slider {
+      position: relative;
+      overflow: hidden;
+      height: 80vh;
+    }
+    .slider-wrapper {
+      display: flex;
+      width: 300%;
+      animation: slide 12s infinite;
+    }
+    .slider-wrapper div {
+      flex: 1 0 100%;
+      background-size: cover;
+      background-position: center;
+    }
+    @keyframes slide {
+      0% { transform: translateX(0); }
+      33% { transform: translateX(-100%); }
+      66% { transform: translateX(-200%); }
+      100% { transform: translateX(0); }
+    }
+  </style>
+  <script>
+    window.addEventListener('scroll', () => {
+      const header = document.querySelector('.header');
+      if (window.scrollY > 20) {
+        header.classList.add('scrolled');
+      } else {
+        header.classList.remove('scrolled');
+      }
+    });
+  </script>
+</head>
+<body>
+
+<header class="header">
+  <div style="display: flex; align-items: center; gap: 1rem;">
+    <img src="logo.png" alt="Logo" style="max-width: 100px;">
+    <div>
+      <h1 style="margin: 0; font-size: 1.5rem; color: white;">Maintenance & Installation Services Ltd</h1>
+      <p style="margin: 0; font-size: 0.9rem; color: #bbb;">Protecting People, Property & Peace of Mind</p>
+    </div>
+  </div>
+  <nav class="nav">
+    <a href="index.html" class="active">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<section class="hero-slider">
+  <div class="slider-wrapper">
+    <div style="background-image: url('fire-alarm-test.jpg');"></div>
+    <div style="background-image: url('door-access-reader.jpg');"></div>
+    <div style="background-image: url('fire-inspection.jpg');"></div>
+  </div>
+  <div style="position: absolute; top:0; left:0; width:100%; height:100%; background: rgba(0,0,0,0.5); display: flex; align-items: center; justify-content: center; flex-direction: column; text-align: center; color: white;">
+    <h2>Protecting What Matters Most</h2>
+    <p>Fire, Security & Data Solutions Across the North West</p>
+    <a href="contact.html" class="cta">Request a Quote</a>
+  </div>
+</section>
+
+<footer style="text-align: center; padding: 2rem; background: #1D1D1D; color: white;">
+  <p>&copy; 2025 Maintenance & Installation Services Ltd. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
