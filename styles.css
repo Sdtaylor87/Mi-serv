@@ -50,13 +50,19 @@ header.container {
   font-size: 28px;
   color: #0d2c54;
 }
+.header-center .slogan p {
+  margin: 5px 0 0 0;
+  font-size: 18px;
+  color: #333;
+}
 .logo {
   height: 120px;
 }
 .button-group {
-  flex: 0 0 300px;
+  flex: 0 0 auto;
   display: flex;
   justify-content: flex-end;
+  flex-wrap: nowrap;
   gap: 10px;
 }
 .button-group a {
