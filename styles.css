@@ -90,13 +90,13 @@ nav ul li a:hover {
 }
 .slides {
   display: flex;
-  width: 115%;
+  width: 100%;
   animation: slide 10s infinite;
 }
 .slide {
   width: 100%;
   flex-shrink: 0;
-  height: 500px;
+  height: 400px;
   position: relative;
 }
 .slide img {
